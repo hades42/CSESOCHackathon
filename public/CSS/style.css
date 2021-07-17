@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Roboto;
+    color: #FFFFFF;
 
 }
 body{
@@ -13,7 +14,7 @@ body{
     
 }
 .top-bar ul{
-    background-color: #737373;
+    background-color: #474954;
     padding: 1rem 0;
     display: flex;
     align-items: center;
@@ -24,7 +25,7 @@ body{
     font-size: 1.5rem;
     text-decoration: none;
     cursor: pointer;
-    color: black;
+    
 }
 .content{
     height: 100%;
@@ -42,7 +43,7 @@ body{
 width: auto;
 height: auto;
 
-background: #ECE1E1;
+background: #7C7E8A;
 }
 #my-units h2{
 
@@ -51,17 +52,16 @@ font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 28px;
-color: #000000;
 padding:0.5%;   
-background: #aaaaaa;
+background: #474954;
 }
 .btn__unit{
     padding: 1rem;
-    background-color: whitesmoke;
-    color: black;
+    background-color: #474954;
     width: 8rem;
     border-radius: 5px;
     cursor: pointer;
+    margin-top:0.5rem;
     margin-left: 1rem;
     display: block;
     text-decoration: none;
@@ -83,7 +83,7 @@ background: #aaaaaa;
     
 width: auto;
 height: fit;
-background: #C4C4C4;
+background: #555762;
 border: 1px solid #000000;
 box-sizing: border-box;
 }
@@ -96,7 +96,6 @@ font-size: 65px;
 line-height: 84px;
 padding:0.5%;   
 margin-left: 40%;
-color: #000000;
 }
 #main-box h3{
 font-family: Roboto;
@@ -104,29 +103,21 @@ font-style: normal;
 font-weight: 200;
 font-size: 18px;
 line-height: 21px;
-color: #000000;
 padding:0.5%;
 margin:0.2%;
 
 }
-.rightbar{
-grid-row:2/3;
-width: 630px;
-height: 1027px;
-left: 1289px;
-top: 56px;
 
-background: #B5ABAB;
-}
 
 /* Right Bar */
 .rightBar{
-    background-color: #C4C4C4;
+    background-color: #656776;
 }
 .rightBar__anouncement{
     text-align: center;
     font-size: 22px;
     margin-bottom: 4rem;
+    margin-top: 1.5rem;
 }
 
 .rightBar__anouncement h2{
@@ -142,14 +133,14 @@ background: #B5ABAB;
 .rightBar__content li{
     color: black;
     font-size: 19px;
-    background: #E5DCDC;
+    background: #7C7E8A;
     padding: 1rem;
 }
 
 .rightBar__timeTable h2{
     text-align: center;
     margin-bottom: 2rem;
-    background-color:#B5ABAB ;
+    background-color:#474954 ;
     padding: 2rem;
     font-weight:500;
 }
@@ -189,7 +180,6 @@ font-weight: normal;
 font-size: 72px;
 line-height: 84px;
 
-color: #000000;
 }
 .discord__bot{
     height: 57rem;
@@ -206,7 +196,7 @@ color: #000000;
 .container2{
     display:grid;
   /*  grid-template-columns: 75% 25%;*/
-  
+
     margin-left:22rem ;
     grid-column-gap: auto;
     background-color: #C4C4C4;
@@ -233,7 +223,8 @@ color: #000000;
     margin-top: 2rem;
     font-size: 2rem;
     text-align: center;
-    font-weight:500;
+    font-weight: 450;
+    margin-top: 1rem;
 }
 
 .firstBox-title p, .secondBox-title p{

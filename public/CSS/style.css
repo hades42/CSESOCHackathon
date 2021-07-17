@@ -8,6 +8,24 @@
 body{
     position: relative;
 }
+/* Navigation Bar */
+.top-bar{
+    
+}
+.top-bar ul{
+    background-color: #737373;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.top-bar ul li a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
 .content{
     height: 100%;
 }
@@ -126,8 +144,6 @@ background: #B5ABAB;
     font-size: 19px;
     background: #E5DCDC;
     padding: 1rem;
-    width: 100%;
-    
 }
 
 .rightBar__timeTable h2{
@@ -176,10 +192,13 @@ line-height: 84px;
 color: #000000;
 }
 .discord__bot{
-    height: 50rem;
+    height: 57rem;
     position: absolute;
     top: 3.3rem;
     left: 0;
+}
+.hidden{
+    display: none;
 }
 
 /* Second page */
@@ -231,4 +250,7 @@ color: #000000;
 }
 .leftBar-classpage{
     height: 100%;
+}
+.mainbar-classpage{
+    overflow: hidden;
 }

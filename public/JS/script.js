@@ -79,37 +79,38 @@ function unitPage(target){
             </div>
             <div class="rightBar-classpage">
 
-                <div class="rightBar-firstBox">
-                    <div class="firstBox-title">
-                        <h2>Announcements</h2>
-                        <p>Latest post</p>
-                    </div>
-                    <ul class="firstBox__list">
-                        <li>
-                            <p>Apologies for the last announcement</p>
-                            <p>20/7</p>
-                        </li>
-                        <li>
-                            <p>Uni is cancelled forever lol</p>
-                            <p>19/7</p>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="rightBar-secondBox">
-                    <div class="secondBox-title">
-                        <h2>General Forum</h2>
-                        <p>Latest post</p>
-                    </div>
-                    <ul class="secondBox__list">
-                        <li>
-                            <p>I need help</p>
-                            <p>14/7</p>
-                        </li>
-                    </ul>
-                </div>
             </div>
 `;
+
+                // <div class="rightBar-firstBox">
+                //     <div class="firstBox-title">
+                //         <h2>Announcements</h2>
+                //         <p>Latest post</p>
+                //     </div>
+                //     <ul class="firstBox__list">
+                //         <li>
+                //             <p>Apologies for the last announcement</p>
+                //             <p>20/7</p>
+                //         </li>
+                //         <li>
+                //             <p>Uni is cancelled forever lol</p>
+                //             <p>19/7</p>
+                //         </li>
+                //     </ul>
+                // </div>
+
+                // <div class="rightBar-secondBox">
+                //     <div class="secondBox-title">
+                //         <h2>General Forum</h2>
+                //         <p>Latest post</p>
+                //     </div>
+                //     <ul class="secondBox__list">
+                //         <li>
+                //             <p>I need help</p>
+                //             <p>14/7</p>
+                //         </li>
+                //     </ul>
+                // </div>
 console.log("page2");
     target.appendChild(container);
 }

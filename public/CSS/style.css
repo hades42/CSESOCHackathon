@@ -205,7 +205,8 @@ color: #000000;
 
 .container2{
     display:grid;
-    grid-template-columns: 75% 25%;
+  /*  grid-template-columns: 75% 25%;*/
+  
     margin-left:22rem ;
     grid-column-gap: auto;
     background-color: #C4C4C4;

@@ -63,21 +63,24 @@ function welcomePage(target){
         </div>`;
     target.appendChild(container);
 }
-function unitPage(target){
+function unitPage(target, unitCode){
     let container = document.createElement("div");
     container.className = "container";
-    container.innerHTML = `<div class = "mainbar"></div>
+    container.innerHTML = `
     <div class = "container2">
         <div class="leftBar-classpage">
             <div class="leftBar__session">
-            <widgetbot server="865871808984252447" channel="865871809517846553" width="500" height="1000" id="embed">
-            </widgetbot>
-            <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
-            <script src="./JS/script.js"></script>
+
+        <widgetbot
+        server="299881420891881473"
+        channel="355719584830980096"
+        width="800"
+        height="600"
+        ></widgetbot>
         </div>
     </div>
     <div class = "mainbar-classpage">
-        <h1>COMP4200</h1>
+        <h1>${unitCode}</h1>
         <iframe src="https://127.0.0.1/" title="ilearn" width="100%" height="700" style="border:none;"></iframe>
     </div>
 `
@@ -94,7 +97,7 @@ function redraw(){
     if(path.path === ""){
         welcomePage(contain);
     } else if(path.path === "unit"){
-        unitPage(contain);
+        unitPage(contain,path.id);
     }
 }
 

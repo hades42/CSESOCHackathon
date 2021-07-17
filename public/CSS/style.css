@@ -1,0 +1,52 @@
+.container{
+    display:grid;
+    grid-template-columns:70% 30%;
+    grid-column-gap: auto;
+}
+
+.mainbar{
+   grid-row: 1/2; 
+}
+#my-units{
+    
+width: 1167.03px;
+height: 161.74px;
+left: 55.44px;
+top: 266.92px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+background: #ECE1E1;
+}
+
+
+#top-bar{
+    width: 1920px;
+    height: 53px;
+    left: 0px;
+    top: 0px;
+    background: #737373;
+}
+#main-box{
+    
+width: 1289px;
+height: 1024px;
+left: 0px;
+top: 56px;
+
+
+}
+.rightbar{
+grid-row:2/3;
+width: 630px;
+height: 1027px;
+left: 1289px;
+top: 56px;
+
+background: #B5ABAB;
+}

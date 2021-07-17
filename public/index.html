@@ -3,78 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZoomDiscLearn</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">   
+     <title>ZoomDiscLearn</title>
 </head>
 <body>
+<div id="top-bar"></div>
     <div class="container">
+        <!--
         <div class="leftBar">
             <div class="leftBar__session">
-                <div class="session__title">2021 Session 1</div>
-                <div class="session__content">
-                    <p class="session__unit">Visual Art</p>
-                    <ul class="session__list">
-                        <li>ILearn</li>
-                        <li>Forums</li>
-                        <li>General Chat</li>
-                        <li>SOMETHING</li>
-                    </ul>
-                </div>
-                <div class="session__content">
-                    <p class="session__unit">Visual Art</p>
-                    <ul class="session__list">
-                        <li>ILearn</li>
-                        <li>Forums</li>
-                        <li>General Chat</li>
-                        <li>ILearn</li>
-                    </ul>
-                </div>
-                <div class="session__content">
-                    <p class="session__unit">Visual Art</p>
-                    <ul class="session__list">
-                        <li>ILearn</li>
-                        <li>Forums</li>
-                        <li>General Chat</li>
-                        <li>ILearn</li>
-                    </ul>
+                <widgetbot server="865871808984252447" channel="865871809517846553" width="500" height="1000" id="embed"></widgetbot>
+                <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+                <script src="./JS/script.js"></script>
                 </div>
             </div>
-            <div class="leftBar__session">
-                <div class="session__title">2021 Session 1</div>
-                <div class="session__content">
-                    <p class="session__unit">Visual Art</p>
-                    <ul class="session__list">
-                        <li>ILearn</li>
-                        <li>Forums</li>
-                        <li>General Chat</li>
-                        <li>ILearn</li>
-                    </ul>
+            !-->
+        <div class="mainbar">
+            <div id = 'main-box'>
+                <div id = 'my-units'>
+                    <h2>My units</h2>
                 </div>
-                <div class="session__content">
-                    <p class="session__unit">Visual Art</p>
-                    <ul class="session__list">
-                        <li>ILearn</li>
-                        <li>Forums</li>
-                        <li>General Chat</li>
-                        <li>ILearn</li>
-                    </ul>
-                </div>
-                <div class="session__content">
-                    <p class="session__unit">Visual Art</p>
-                    <ul class="session__list">
-                        <li>ILearn</li>
-                        <li>Forums</li>
-                        <li>General Chat</li>
-                        <li>ILearn</li>
-                    </ul>
-                </div>
+                <div id= 'calendar'> 
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Australia%2FSydney&amp;src=NzFrZXJ2ZWw0YjFiOWVubHNwazlqbXViaWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161"
+                    style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"></iframe></div>
+            </div>
+            </div>
+        <div class="rightBar">
+            <!-- Anouncement on top -->
+            <div class="rightBar__anouncement">
+                <h2> University Announcements </h2>
+                <p> Lastest Post</p>
+            </div>
+            <!-- Middle part -->
+            <ul class="rightBar__content">
+                <li>Welcome to semester 8 of 2024!</li>
+            </ul>
+            <!-- Time Table -->
+            <div class="rightBar__timeTable">
+                <h2>Class Timetable</h2>
+                <ul class="rightBar__listTable">
+                    <li>
+                        <div class="listTable__list">
+                            <p class="listTable__unit">COMP9999</p>
+                            <p class="listTable__time">THURS 1AM</p>
+                            <p class="listTable__status">Next Class</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="listTable__list">
+                            <p class="listTable__unit">COMP1212</p>
+                            <p class="listTable__time">THURS 2AM</p>
+                            <p class="listTable__status">Cancelled</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="mainbar"></div>
-        <div class="rightBar"></div>
     </div>
 
-    <widgetbot server="865871808984252447" channel="865871809517846553" width="1000" height="600" id="embed"></widgetbot>
-    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
-    <script src="./JS/script.js"></script>
 </body>
 </html>

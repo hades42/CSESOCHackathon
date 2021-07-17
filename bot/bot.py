@@ -4,7 +4,7 @@ import json
 from bs4 import BeautifulSoup
 from discord.ext import tasks
 
-token = 'ODY1ODczNDQwNDMwMzU4NTI5.YPKVew.m-OGXCqJyMPvFHWiKMKnXQ2VvqU'
+token = #TOKEN
 
 bot = discord.Client()
 

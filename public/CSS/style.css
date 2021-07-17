@@ -2,6 +2,8 @@
     box-sizing: none;
     margin: 0;
     padding: 0;
+    font-family: Roboto;
+
 }
 .container{
     display:grid;
@@ -28,10 +30,11 @@ font-size: 24px;
 line-height: 28px;
 color: #000000;
 padding:0.5%;   
+background: #aaaaaa;
 }
 
 #top-bar{
-    width: 1920px;
+    width: fit;
     height: 53px;
     left: 0px;
     top: 0px;
@@ -53,13 +56,13 @@ font-weight: normal;
 font-size: 65px;
 line-height: 84px;
 padding:0.5%;   
-
+margin-left: 40%;
 color: #000000;
 }
-.main-box h3{
+#main-box h3{
 font-family: Roboto;
 font-style: normal;
-font-weight: light;
+font-weight: 200;
 font-size: 18px;
 line-height: 21px;
 color: #000000;
@@ -89,6 +92,7 @@ background: #B5ABAB;
 
 .rightBar__anouncement h2{
     margin-bottom: 2rem;
+    font-weight:500;
 }
 .rightBar__content{
     list-style: none;
@@ -102,6 +106,7 @@ background: #B5ABAB;
     background: #E5DCDC;
     padding: 1rem;
     width: 100%;
+    
 }
 
 .rightBar__timeTable h2{
@@ -109,6 +114,7 @@ background: #B5ABAB;
     margin-bottom: 2rem;
     background-color:#B5ABAB ;
     padding: 2rem;
+    font-weight:500;
 }
 .rightBar__listTable{
     list-style: none;

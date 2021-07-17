@@ -63,7 +63,27 @@ function welcomePage(target){
         </div>`;
     target.appendChild(container);
 }
+function unitPage(target){
+    let container = document.createElement("div");
+    container.className = "container";
+    container.innerHTML = `<div class = "mainbar"></div>
+    <div class = "container2">
+        <div class="leftBar-classpage">
+            <div class="leftBar__session">
+            <widgetbot server="865871808984252447" channel="865871809517846553" width="500" height="1000" id="embed">
+            </widgetbot>
+            <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+            <script src="./JS/script.js"></script>
+        </div>
+    </div>
+    <div class = "mainbar-classpage">
+        <h1>COMP4200</h1>
+        <iframe src="https://127.0.0.1/" title="ilearn" width="100%" height="700" style="border:none;"></iframe>
+    </div>
+`
 
+    target.appendChild(container);
+}
 function redraw(){
     let path = splitHash(window.location.hash);
     // target the main contain
@@ -74,7 +94,7 @@ function redraw(){
     if(path.path === ""){
         welcomePage(contain);
     } else if(path.path === "unit"){
-        console.log("paht");
+        unitPage(contain);
     }
 }
 

@@ -1,3 +1,8 @@
+*{
+    box-sizing: none;
+    margin: 0;
+    padding: 0;
+}
 .container{
     display:grid;
     grid-template-columns:70% 30%;
@@ -59,4 +64,66 @@ left: 1289px;
 top: 56px;
 
 background: #B5ABAB;
+}
+
+/* Right Bar */
+.rightBar{
+    background-color: #C4C4C4;
+}
+.rightBar__anouncement{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 4rem;
+}
+
+.rightBar__anouncement h2{
+    margin-bottom: 2rem;
+}
+.rightBar__content{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.rightBar__content li{
+    color: black;
+    font-size: 19px;
+    background: #E5DCDC;
+    padding: 1rem;
+    width: 100%;
+}
+
+.rightBar__timeTable h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color:#B5ABAB ;
+    padding: 2rem;
+}
+.rightBar__listTable{
+    list-style: none;
+}
+
+.rightBar__listTable li{
+    margin-bottom: 1rem;
+}
+.listTable__list{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+}
+
+.listTable__status{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.available{
+    background-color: yellow;
+}
+.cancel{
+    background-color: red;
 }

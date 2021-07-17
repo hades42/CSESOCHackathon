@@ -38,7 +38,10 @@ function welcomePage(target){
             </div>
             <!-- Middle part -->
             <ul class="rightBar__content">
-                <li>Welcome to octomester 8 of 2024!</li>
+                <li>
+                    <p>Welcome to octomester 8 of 2024!</p>
+                    <p>1/6</p>
+                </li>
             </ul>
             <!-- Time Table -->
             <div class="rightBar__timeTable">

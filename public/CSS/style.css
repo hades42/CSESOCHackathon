@@ -56,6 +56,17 @@ padding:0.5%;
 
 color: #000000;
 }
+.main-box h3{
+font-family: Roboto;
+font-style: normal;
+font-weight: light;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+padding:0.5%;
+margin:0.2%;
+
+}
 .rightbar{
 grid-row:2/3;
 width: 630px;
@@ -126,4 +137,14 @@ background: #B5ABAB;
 }
 .cancel{
     background-color: red;
+}
+.mainbar-classpage h1{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 84px;
+
+color: #000000;
 }

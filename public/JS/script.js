@@ -74,7 +74,7 @@ function redraw(){
     if(path.path === ""){
         welcomePage(contain);
     } else if(path.path === "unit"){
-        console.log("paht");
+        
     }
 }
 

@@ -13,6 +13,10 @@ body{
 .top-bar{
     
 }
+.zoom__logo{
+    width: 5rem;
+    height: 2.3rem;
+}
 .top-bar ul{
     background-color: #474954;
     padding: 1rem 0;

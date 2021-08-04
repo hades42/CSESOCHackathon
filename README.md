@@ -1,7 +1,5 @@
 # CSESOCHackathon
-<<<<<<< HEAD
-Our web application is designed to combine the features of moodle, zoom, and discord.
-It makes accessing university related discord channels and zoom links more convenient and reduce clutter from having multiple applications open.
+Our web application is designed to combine the features of Moodle, Zoom, and Discord. It makes accessing university related discord channels and zoom links more convenient and reduce clutter from having multiple applications open.
 
 # Third-party material
 * [Discord widgetbot](https://widgetbot.io/)
